@@ -1,0 +1,58 @@
+.wrapper{
+		width: 962px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFF;
+    text-align: left;
+    overflow: auto;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #FFF;
+    border-left-color: #FFF;
+}
+
+.form{
+	display: -webkit-flex;
+ 	justify-content: center;
+  	align-items: center;
+	background-color: lightgrey;
+	height: 650px;
+}
+
+
+.formField{
+	position: relative;
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.formField h1{
+	text-align: center;
+}
+
+label{
+	display: inline-block;
+	width: 150px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.Button input{
+	font-size: 1.0em;
+}
+
+.registerhere{
+	text-align: right;
+	
+}
+
+.registerhere a{
+	text-decoration: none;
+}
+
+.registerhere a:hover{
+	font-size: 1.5em;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Fishing World</title>
+	<link rel="stylesheet" href="styleFish.css">
+</head>
+
+	<body>
+		<div class="topHeader">
+			<header>
+				BRITISH COLUMBIA: FISHING WORLD!!! 
+
+				<marquee id="date" ></marquee>
+				<script>
+					document.getElementById("date").innerHTML = new Date();
+				</script>
+			</header>
+
+		</div>
+		<div class="wrapper">
+			<div class="banner">
+			</div>
+
+			<div class="navigation">
+				<div class="navlink1">
+					<a href="home.html">Home</a>
+				</div>
+				<div class="navlink2">
+					<a href="spots.html">Fishing Spots</a>
+				</div>
+				<div class="navlink3">
+					<a href="fishingLicense.html">Fishing License</a>
+				</div>
+				<div class="navlink4">
+					<a href="loginPage.html">Login</a>
+				</div>
+
+				<div class="audio">
+					<audio controls autoplay loop>
+					  <source src="fishingSong.m4a" type="audio/mp4">
+					Your browser does not support the audio element.
+					</audio>
+				</div>
+			</div>
+
+			<main>
+				<div class="mainContent">
+					<h2 class="titleMain" >About fishing in British Columbia</h2>
+					<p>The fishing activity in Canada is very well regulated
+						and is sometimes a bit difficult to know what's species you can actually catch
+						and also where you can go to do that.
+					</p>
+				</div>
+
+				<div class="fishingTable">
+					 <table id="typesOfFish">
+				        <colgroup>
+				           <col id="firstCol">
+				           <col class="dataCols" span="4">
+				        </colgroup>
+
+				        <thead>
+				          <tr>
+				            <th><img class="littleFish" src=""></th>
+				            <th><div>Salmon</div><img class="salmon" src="salmon.png"></th>
+				            <th><div>Trout</div><img class="trout" src="trout.png"></th>
+				            <th><div>Sturgeon</div><img class="sturgeon" src="sturgeon.png"></th>
+				            <th><div>Carp</div><img class="carp" src="carp.png"></th>
+				          </tr>
+
+				         
+
+				        </thead>
+
+				        <tfoot>
+				          <tr>
+				            <th>Summary</th>
+				            <td>
+				            	Salmon, originally, the large fish now usually called the Atlantic salmon (Salmo salar), though more recently the name has been applied to similar fishes of the same family (Salmonidae), especially the Pacific salmon, which constitute the genus Oncorhynchus.
+				              </td>
+				              <td>
+				              	Rainbow trout and steelhead are ray-finned fishes in the salmon family, and they are one of the top sport fish in North America.
+				              </td>
+				              <td>
+				                What native Ontario species has rough, plated skin and has survived for more than 200 million years? At first guess, you might be thinking of a type of dinosaur, but you'd be wrong. Lake sturgeon, nature's own living fossil, is the correct answer.
+				              </td>
+				              <td>
+				                Carp are various species of oily freshwater fish from the family Cyprinidae, a very large group of fish native to Europe and Asia. While carp is consumed in many parts of the world, they are generally considered an invasive species in parts of Africa, Australia and most of the United States.
+				              </td>
+				          </tr>    
+				        </tfoot>
+				        <tbody>
+				          <tr>
+				            <th>Allowed to fish?</th>
+				            <td>Yes</td>
+				            <td>Yes</td>
+				          	<td>Yes</td>
+				            <td>Yes</td>
+				          </tr>
+				           
+				        </tbody>
+				      </table>
+					
+				</div>
+
+			</main>
+
+			<div class="video">
+				<iframe width="962px" height="500px" src="https://www.youtube.com/embed/mKgbqcl6eQ4" title="Vedder River Winter Steelhead Fishing | Fishing with Rod" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		
+
+		</div>
+		<div class="footer">
+			<p>GO FISHING!</p>
+		</div>
+
+
+
+	</body>
+
+</html>

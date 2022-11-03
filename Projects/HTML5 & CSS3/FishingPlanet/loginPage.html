@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Fishing World</title>
+	<link rel="stylesheet" href="styleFish.css">
+	<link rel="stylesheet" href="login.css">
+</head>
+
+	<body>
+		<div class="topHeader">
+			<header>
+				BRITISH COLUMBIA: FISHING WORLD!!! 
+			</header>
+		</div>
+
+		<div class="wrapper">
+			<div class="navigation">
+				<div class="navlink1">
+					<a href="home.html">Home</a>
+				</div>
+				<div class="navlink2">
+					<a href="spots.html">Fishing Spots</a>
+				</div>
+				<div class="navlink3">
+					<a href="fishingLicense.html">Fishing License</a>
+				</div>
+				<div class="navlink4">
+					<a href="loginPage.html">Login</a>
+				</div>
+			</div>
+
+			<form class="form" action="home.html" onsubmit="myFunction()">
+				<fieldset class="formField">
+					<h1>Login</h1>
+					<div>
+						<label>E-mail</label>
+						<input type="email" name="cusEmail" placeholder="exemple123@exemple123.com" required>
+						<br>
+						<label>Password</label>
+						<input type="Password" name="password" placeholder="********" required>
+						<script>
+							function myFunction() {
+		 					 alert("Successfully logged");}
+						</script>
+						<p class="Button">
+							<input type="submit" value="Login">
+						</p>
+						<p class="registerhere">
+							<a href="fishingLicense.html">Register Here!</a>
+		            	</p>
+		            </div>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>		

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="form.css">
+	<link rel="stylesheet" href="styleFish.css">
+	<script src="script.js"></script>
+	<title>Form</title>
+</head>
+<body>
+	<div class="topHeader">
+		<header>
+			BRITISH COLUMBIA: FISHING WORLD!!! 
+		</header>
+	</div>
+
+	<div class="wrapper">
+		<div class="navigation">
+				<div class="navlink1">
+					<a href="home.html">Home</a>
+				</div>
+				<div class="navlink2">
+					<a href="spots.html">Fishing Spots</a>
+				</div>
+				<div class="navlink3">
+					<a href="fishingLicense.html">Fishing License</a>
+				</div>
+				<div class="navlink4">
+					<a href="loginPage.html">Login</a>
+				</div>
+<!-- action="loginPage.html" -->
+			</div>
+		<form class="form" id="form1" onsubmit="message(), hidden()" method="post">
+			<fieldset class="formField">
+				<legend><h1>Registration form</h1></legend>
+				<div class="formData">
+					<label>First Name*</label>
+		        	<input type="text" name="firstName" id="fnBox" required/>
+		        	<br>
+		        	<label>Last Name*</label>
+		        	<input type="text" name="LastName" id="lnBox" required/>
+					<br>
+					<label>E-mail*</label>
+		         	<input type="email" name="email" id="mailBox" required/>
+					<br>
+					<label>Password</label>
+					<input type="Password" name="password" id="pass1" placeholder="********" required>
+					<br>
+					<label>Repeat Password</label>
+					<input type="Password" name="password" id="pass2" placeholder="********" onkeyup="passValidation()" required>
+					<span id = "passMsg"> </span>
+					<br>
+					<label for="country">Choose a country:</label>
+					<select id="country" name="count" size="1" onchange="c()">
+						<option value="1">Brazil</option>
+						<option value="2">Canada</option>
+						<option value="3">Japao</option>
+					</select>
+					<br>
+					<label for="gender">Gender:</label>
+					Male<input type="radio" name="g" id="m">
+					Female<input type="radio" name="g" id="f">
+					<br>
+					<label>Hobbies:</label>
+					<br>
+					<div class="hobbies">
+						<label>Fishing</label><input type="checkbox" name="s" values="1">
+						<br>
+						<label>Video Games</label><input type="checkbox" name="s" values="1">
+						<br>
+						<label>Shooting</label><input type="checkbox" name="s" values="1">
+						<br>
+						<label>Reading</label><input type="checkbox" name="s" values="1">
+					</div>
+					<br>
+
+					<p class="Button">
+						<input type="submit" id="demo" value="Register!"  >
+					</p>
+					
+	         	</div>
+			</fieldset>
+		</form>
+	</div>
+</body>
+	
+</html>

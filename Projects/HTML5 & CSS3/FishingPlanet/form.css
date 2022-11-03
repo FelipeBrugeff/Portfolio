@@ -1,0 +1,72 @@
+body{
+	height: 937px;
+}
+
+.wrapper{
+		width: 962px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFF;
+    text-align: left;
+    overflow: auto;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #FFF;
+    border-left-color: #FFF;
+}
+
+
+input:focus, select:focus, textarea:focus{
+  background-color: rgb(245, 245, 140);
+}
+
+#fnBox:focus, #lnBox:focus, #addBox:focus, #mailBox:focus, #phoneBox:focus, #idBox:focus{
+  background-color: rgb(220, 255, 220);
+}
+
+#fnBox:focus:invalid, #lnBox:focus:invalid, #addBox:focus:invalid, #mailBox:focus:invalid, #phoneBox:focus:invalid, #idBox:focus:invalid{
+  background-color: rgb(220, 255, 220);
+  background-repeat: no-repeat;
+}
+
+.form{
+	display: -webkit-flex;
+ 	justify-content: center;
+  	align-items: center;
+	background-color: lightgrey;
+	height: 650px;
+}
+
+
+.formField{
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formData{
+	text-align: left;
+}
+
+label{
+	display: inline-block;
+	width: 189px;
+	font-weight: bold;
+}
+
+.hobbies{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.hobbies label{
+	font-weight: normal;
+}
+
+.Button{
+	text-align: center;
+	margin: 0px;
+	margin-top: 13px;
+}

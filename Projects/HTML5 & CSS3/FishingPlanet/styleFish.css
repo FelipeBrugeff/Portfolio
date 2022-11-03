@@ -1,0 +1,243 @@
+html{
+
+	font-family: Verdana,sans-serif;
+}
+
+
+
+body{
+		background-color: #336699;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-repeat: repeat-x;
+    min-height: 937px;
+}
+
+.topHeader{
+	background-color: black;
+	color: white;
+}
+
+.wrapper{
+		width: 962px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFF;
+    overflow: auto;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #FFF;
+    border-left-color: #FFF;
+}
+
+.banner{
+	
+	display: flex;
+	padding: 20px 0px;
+	height: 250px;
+	background-image: url(backHeader.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 115%;
+	width: 100%;
+
+}
+
+.navigation {
+	width: 960px;
+	height: 30px;
+	border: solid 1px white;
+	background-color: slateblue;
+}
+
+.navigationlist{
+	display: flex;
+	text-align: right;
+	margin-right: 25px;
+}
+
+.navlink1, .navlink2, .navlink3, .navlink4{
+	float: left;
+	padding: 0px 5px;
+	border: solid 1px white;
+}
+
+.audio, audio{
+	height: inherit;
+	background-color: slateblue;
+}
+
+.navlink1 a, .navlink2 a, .navlink3 a, .navlink4 a{
+	text-decoration: none;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: white;
+
+}
+
+.navlink1:hover, .navlink2:hover, .navlink3:hover, .navlink4:hover{
+	color: white;
+	background-color: black;
+}
+
+
+/*BODY STYLES*/
+
+.mainContent{
+	margin: auto;
+}
+
+.titleMain{
+	text-align: center;
+	vertical-align: top;
+	height: 50px;
+}
+
+.mainContent p{
+	background-color: ;
+	position: relative;
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/*TABLE STYLES*/
+
+table{
+  background-image: linear-gradient(lightblue, black);
+  border: 5px solid gray;
+}
+
+th, td{
+  border: 3px solid gray;
+  line-height: 1em;
+  padding: 8px;
+}
+
+th{
+  background-color: linear-gradient(lightblue, black);
+  color: white;
+  font-weight: normal;
+}
+
+td{
+  color:white;
+  font-size: 0.9em;
+  vertical-align: top;
+  text-align: center;
+}
+td:hover{
+	font-size: 1.5em;
+}
+
+#firstCol{
+  width: 24%;
+}
+.dataCols{
+  width: 19%;
+}
+
+thead tr{
+  height: 60px;
+}
+
+thead tr:first-of-type th:first-of-type{
+  font-size: 2em;
+}
+
+thead tr:first-of-type th:not(:first-of-type){
+  text-align: center;
+  background-color: transparent;
+  color: black;
+}
+
+thead tr:first-of-type th:nth-of-type(2) div{
+	margin: 0;
+	height: 30px;
+	vertical-align: top;
+	font-size: 1em;
+
+}
+
+.salmon{
+	position: relative;
+}
+.salmon:hover{
+	position: static;
+	height: 100px;
+}
+
+thead tr:first-of-type th:nth-of-type(3) div{
+	margin: 0;
+	height: 50px;
+	vertical-align: top;
+	font-size: 1em;
+
+}
+
+.trout{
+	position: relative;
+}
+.trout:hover{
+	position: static;
+	height: 100px;
+}
+
+thead tr:first-of-type th:nth-of-type(4) div{
+	margin: 0;
+	height: 45px;
+	vertical-align: top;
+	font-size: 1em;
+
+}
+
+.sturgeon{
+	position: relative;
+}
+.sturgeon:hover{
+	position: static;
+	height: 100px;
+}
+
+thead tr:first-of-type th:nth-of-type(5) div{
+	margin: 0;
+	height: 35px;
+	vertical-align: top;
+	font-size: 1em;
+
+}
+
+.carp{
+	position: relative;
+}
+.carp:hover{
+	position: static;
+	height: 100px;
+}
+
+
+.video{
+	margin-top: 15px;
+}
+
+
+.footer{
+	display: -webkit-flex;
+ 	justify-content: center;
+
+	margin: 0px;
+	vertical-align: top;
+	background-color: black;
+	color: white;
+}
+
+.footer p{
+	margin: 0px;
+}
+
+
+
+/* Adaptacao para mobile */
+
